@@ -1,0 +1,54 @@
+$colors:(
+        "bg-color":#F7FBFC,
+
+        "icon-color": #769FCD,
+
+        "primary-color": #D6E6F2,
+
+        "secondary-color":#B9D7EA,
+);
+
+/* map-get(" ... ") */
+
+/* nesting
+parent{
+    parent-child =>or &-child
+}
+ */
+
+.icon-color{
+  color: map-get($colors,"icon-color");
+}
+
+.bg-color{
+  background-color: map-get($colors,"bg-color");
+}
+
+.header{
+  height: 150px;
+  nav{
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+}
+
+.navbar-nav{
+  .nav-item{
+    .nav-link:hover{
+      color: map-get($colors,"icon-color");
+    }
+  }
+}
+
+.navbar-nav{
+  .btn{
+    background-color: map-get($colors,"icon-color");
+  }
+  .btn:hover{
+    background-color:map-get($colors,"secondary-color") ;
+  }
+}
