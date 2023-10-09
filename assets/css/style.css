@@ -1,0 +1,38 @@
+/* map-get(" ... ") */
+/* nesting
+parent{
+    parent-child =>or &-child
+}
+ */
+.icon-color {
+  color: #769FCD;
+}
+
+.bg-color {
+  background-color: #F7FBFC;
+}
+
+.header {
+  height: 150px;
+}
+.header nav {
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #769FCD;
+}
+
+.navbar-nav .btn {
+  background-color: #769FCD;
+}
+.navbar-nav .btn:hover {
+  background-color: #B9D7EA;
+}
+
+/*# sourceMappingURL=style.css.map */

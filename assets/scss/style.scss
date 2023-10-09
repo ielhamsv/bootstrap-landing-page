@@ -1,3 +1,6 @@
+*{
+  font-family: rubik;
+}
 $colors:(
         "bg-color":#F7FBFC,
 
@@ -16,6 +19,9 @@ parent{
 }
  */
 
+.bg-icon-color{
+  background-color: map-get($colors,"icon-color");
+}
 .icon-color{
   color: map-get($colors,"icon-color");
 }
