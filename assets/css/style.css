@@ -44,4 +44,13 @@ parent{
   background-color: #B9D7EA;
 }
 
+.circle {
+  position: absolute;
+  top: 0;
+  background-color: #769FCD;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -60,3 +60,11 @@ parent{
     background-color:map-get($colors,"secondary-color") ;
   }
 }
+.circle {
+  position: absolute;
+  top: 0;
+  background-color: map-get($colors, "icon-color");
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
