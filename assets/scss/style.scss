@@ -29,9 +29,11 @@ parent{
 .bg-color{
   background-color: map-get($colors,"bg-color");
 }
+.bg-primary-color{
+  background-color: map-get($colors,"primary-color");
+}
 
 .header{
-  height: 150px;
   nav{
     background-color: rgba(255, 255, 255, 0);
     position: fixed;

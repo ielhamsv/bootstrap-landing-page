@@ -1,9 +1,17 @@
+* {
+  font-family: rubik;
+}
+
 /* map-get(" ... ") */
 /* nesting
 parent{
     parent-child =>or &-child
 }
  */
+.bg-icon-color {
+  background-color: #769FCD;
+}
+
 .icon-color {
   color: #769FCD;
 }
@@ -12,9 +20,10 @@ parent{
   background-color: #F7FBFC;
 }
 
-.header {
-  height: 150px;
+.bg-primary-color {
+  background-color: #D6E6F2;
 }
+
 .header nav {
   background-color: rgba(255, 255, 255, 0);
   position: fixed;
