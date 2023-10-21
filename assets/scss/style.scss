@@ -1,6 +1,9 @@
 *{
   font-family: rubik;
 }
+a{
+  text-decoration: none;
+}
 $colors:(
         "bg-color":#F7FBFC,
 
@@ -11,14 +14,9 @@ $colors:(
         "secondary-color":#B9D7EA,
 );
 
-/* map-get(" ... ") */
-
-/* nesting
-parent{
-    parent-child =>or &-child
+.bg-secondary-color{
+  background-color: map-get($colors,"secondary-color");
 }
- */
-
 .bg-icon-color{
   background-color: map-get($colors,"icon-color");
 }
@@ -67,4 +65,39 @@ parent{
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+
+#portfolio{
+#filter{
+  .btn{
+    transition: 500ms;
+  }
+  .btn:hover{
+    color: map-get($colors,"icon-color");
+  }
+  .btn.active{
+    background-color: map-get($colors,"icon-color");
+    color: white;
+  }
+}
+  .box{
+    .img-box{
+      .position-absolute{
+        right: 0;
+        opacity: 0;
+        transition: 500ms;
+        cursor: pointer;
+      }
+      .position-absolute:hover{
+        opacity: 1;
+      }
+      .position-absolute{
+        .container{
+          a:hover{
+            color: darkred;
+          }
+        }
+      }
+    }
+  }
 }

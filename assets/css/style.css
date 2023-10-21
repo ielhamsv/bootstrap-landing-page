@@ -2,12 +2,14 @@
   font-family: rubik;
 }
 
-/* map-get(" ... ") */
-/* nesting
-parent{
-    parent-child =>or &-child
+a {
+  text-decoration: none;
 }
- */
+
+.bg-secondary-color {
+  background-color: #B9D7EA;
+}
+
 .bg-icon-color {
   background-color: #769FCD;
 }
@@ -51,6 +53,29 @@ parent{
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+
+#portfolio #filter .btn {
+  transition: 500ms;
+}
+#portfolio #filter .btn:hover {
+  color: #769FCD;
+}
+#portfolio #filter .btn.active {
+  background-color: #769FCD;
+  color: white;
+}
+#portfolio .box .img-box .position-absolute {
+  right: 0;
+  opacity: 0;
+  transition: 500ms;
+  cursor: pointer;
+}
+#portfolio .box .img-box .position-absolute:hover {
+  opacity: 1;
+}
+#portfolio .box .img-box .position-absolute .container a:hover {
+  color: darkred;
 }
 
 /*# sourceMappingURL=style.css.map */
