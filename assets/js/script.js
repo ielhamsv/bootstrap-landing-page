@@ -44,3 +44,23 @@ all.addEventListener("click",function (){
         box.style.display="flex"
     })
 })
+
+
+///////////////////////////////////////////
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    items:2,
+    mouseDrag:false,
+    touchDrag:false,
+    pullDrag:false,
+    dotsEach:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        992:{
+            items:2
+        }
+    }
+})

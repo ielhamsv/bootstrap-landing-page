@@ -78,4 +78,16 @@ a {
   color: darkred;
 }
 
+#reviews {
+  background-image: url("../pics/luxa.org-opacity-changed-functionality-vs-aesthetics-web-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.star {
+  color: #fdcc08;
+}
+
 /*# sourceMappingURL=style.css.map */
